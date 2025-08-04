@@ -19,7 +19,7 @@ public class DoctorController {
     @PostMapping
     public ResponseEntity<DoctorDTO> create(@Valid @RequestBody DoctorDTO dto) {
         return ResponseEntity.ok(doctorService.createDoctor(dto));
-        sout
+     
     }
 
     @GetMapping
